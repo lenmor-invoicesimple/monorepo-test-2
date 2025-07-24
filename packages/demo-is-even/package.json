@@ -24,7 +24,7 @@
     "test": "yarn build && jest"
   },
   "dependencies": {
-    "demo-is-odd": "^1.0.0"
+    "@lenmor-invoicesimple/demo-is-odd-2": "^1.0.0"
   },
   "devDependencies": {
     "jest": "^30.0.5",
