@@ -1,0 +1,31 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "429720312540499199"
+      },
+      {
+        "file": "__tests__/demo-is-odd.test.js",
+        "hash": "1249590481193306121"
+      },
+      {
+        "file": "lib/demo-is-odd.ts",
+        "hash": "10237989777474318149"
+      },
+      {
+        "file": "package.json",
+        "hash": "4913861691719793082"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "13314576367722409463"
+      }
+    ]
+  }
+}
