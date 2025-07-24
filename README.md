@@ -66,25 +66,25 @@ For example: you create a new version `is-packages/a@1.0.1`, which depends on `i
 
 ---
 
-1. Merge your feature branch
+1. Create a new branch from master `git checkout -b release/<changed-package>@<new-version>`
 
-2. Create a new branch from master `git checkout -b release/<changed-package>@<new-version>`
+2. Manually set the new version in `package.json` for desired package
 
-3. Manually set the new version in `package.json` for desired package
+3. Update dependencies within `is-packages` accordingly
 
-4. Update dependencies within `is-packages` accordingly
+4. CD into the individual package dir and run `yarn build` for each package you're releasing
 
-5. CD into the individual package dir and run `yarn build` for each package you're releasing
+5. commit the changes.
 
-6. commit the changes.
+6. CD back into root of is-packages and run `npx lerna publish from-package`. This will publish all the packages with modified `package.json` version.
 
-7. CD back into root of is-packages and run `npx lerna publish from-package`. This will publish all the packages with modified `package.json` version.
+7. Save, commit, add tag `git tag "@invoice-simple/<changed-package>@<new-version>"`
 
-8. Save, commit, add tag `git tag "@invoice-simple/<changed-package>@<new-version>"`
+8. Push to remote origin, include tags `git push origin --tags`
 
-9. Push to remote origin, include tags `git push origin --tags`
+9. Open a PR for the branch
 
-10. Open a PR for the branch
+10. merge once approved
 
 ## Adding a new package
 
