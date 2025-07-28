@@ -5,7 +5,7 @@
     "url": "https://github.com/lenmor-invoicesimple/monorepo-test-2",
     "directory": "packages/demo-add"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "is add package",
   "author": "Lenmor Dimanalata <lenmor@invoicesimple.com>",
   "homepage": "",
@@ -30,5 +30,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "gitHead": "b9e58fd9cda52a17d8b2b95488885ec5a5f8edef"
+  "gitHead": "ad48bda28bfa3c5a02bd3d76ff3312d748a6c31d"
 }
