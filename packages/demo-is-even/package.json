@@ -5,7 +5,7 @@
     "url": "https://github.com/lenmor-invoicesimple/monorepo-test-2",
     "directory": "packages/demo-is-even"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "is even package",
   "author": "Lenmor Dimanalata <lenmor@invoicesimple.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "test": "yarn build && jest"
   },
   "dependencies": {
-    "@lenmor-invoicesimple/demo-is-odd-2": "^1.0.3"
+    "@lenmor-invoicesimple/demo-is-odd-2": "^1.0.4"
   },
   "devDependencies": {
     "jest": "^30.0.5",
@@ -33,5 +33,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "gitHead": "1f452b9a24877d794dc17ee245eb15bcb303a819"
+  "gitHead": "6ec39162647c91e240869a985119abbe588f95e7"
 }
