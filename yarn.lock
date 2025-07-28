@@ -3452,18 +3452,6 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==
 
-demo-is-even@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/demo-is-even/-/demo-is-even-1.0.0.tgz#f65db7c0a05da7f898e63323404424beef8bce63"
-  integrity sha512-LZsxJ1Hd6Kxd1Zd7yeK/tEm6WO5VAx0gkoKXSvsLnLTtr+fZ4T0PIh1MAb5va6H1U6BnQqQwRyz/i9E5CuMvmQ==
-
-demo-is-odd@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/demo-is-odd/-/demo-is-odd-1.0.1.tgz#5725eb86ba71bcd85651ba41af4d8a840a8bc0a6"
-  integrity sha512-4wQMBH6xVYUaGZIISWdLvwPCSGI0CQ1sFn5Ped5BoCMgEaxFz0g/T+czD8PKhme4S/3GSZqItgOnflixC1QLRQ==
-  dependencies:
-    demo-is-even "^1.0.0"
-
 deprecation@^2.0.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-2.3.1.tgz#6368cbdb40abf3373b525ac87e4a260c3a700919"

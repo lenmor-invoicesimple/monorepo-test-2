@@ -23,9 +23,6 @@
     "build": "tsc",
     "test": "yarn build && jest"
   },
-  "dependencies": {
-    "demo-is-odd": "^1.0.0"
-  },
   "devDependencies": {
     "jest": "^30.0.5",
     "typescript": "^5.8.3"
